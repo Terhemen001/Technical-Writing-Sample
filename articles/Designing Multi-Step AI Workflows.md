@@ -20,7 +20,7 @@ Prompt-only systems collapse.
 
 This article explains how to design **multi-step AI workflows** that scale beyond toy problems.
 
-
+---
 
 ## Why Long Prompts Fail
 
@@ -33,7 +33,7 @@ Problems:
 
 Complex tasks need **structure**, not verbosity.
 
-
+---
 
 ## Core Workflow Patterns
 
@@ -50,7 +50,7 @@ Example:
 2. Retrieve data
 3. Summarize findings
 
-
+---
 
 ### 2. Router-Based Workflows
 
@@ -64,7 +64,7 @@ Example:
 - Technical query → technical agent
 - Business query → business agent
 
-
+---
 
 ### 3. Parallel Execution
 
@@ -77,7 +77,7 @@ Multiple tasks run simultaneously.
 Example:
 - Query multiple data sources at once
 
-
+---
 
 ### 4. Map-Reduce
 
@@ -91,7 +91,7 @@ Example:
 - Analyze hundreds of documents
 - Combine insights into one report
 
-
+---
 
 ## Implementing Workflows as Code
 
@@ -106,7 +106,7 @@ Use:
 The model reasons.  
 The system orchestrates.
 
-
+---
 
 ## Example Use Case: Research Assistant
 
@@ -119,7 +119,7 @@ The system orchestrates.
 This is not one prompt.  
 It’s a workflow.
 
-
+---
 
 ## Conclusion
 
