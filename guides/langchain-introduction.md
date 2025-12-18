@@ -36,17 +36,16 @@ agent = create_agent(
 
 response = agent.invoke("What's the weather in Lagos?")
 print(response)
-```
 
-#Use Cases
+Use Cases
 
-•Conversational agents
+1.Conversational agents
 
-•Document question-answering
+2. Document question-answering
 
-•Workflow automation using AI
+3. Workflow automation using AI
 
-#Conclusion
+Conclusion
 
 LangChain abstracts complex LLM interactions, allowing developers
 to focus on application logic rather than model orchestration.
