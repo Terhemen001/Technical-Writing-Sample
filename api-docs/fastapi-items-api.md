@@ -2,7 +2,7 @@
 
 ---
 
-# 📗 API Documentation Template  
+# API Documentation Template  
 **File:** `api-docs/fastapi-items-api.md`
 
 ```markdown
@@ -33,13 +33,13 @@ Path Parameters
 Name	Type	Description
 item_id	integer	Unique identifier of the item
 
-# Example Request
+Example Request
 
 GET /items/42
 Authorization: Bearer abc123
 
 
-#Successful Response
+Successful Response
 
 {
   "id": 42,
@@ -47,20 +47,20 @@ Authorization: Bearer abc123
 }
 
 
-#Error Responses
+Error Responses
 
 Status Code	Description
 404	Item not found
 401	Unauthorized
 
-#Error Example
+Error Example
 
 {
   "detail": "Item not found"
 }
 
 
-#Notes
+Notes
 
 Responses are JSON formatted
 
