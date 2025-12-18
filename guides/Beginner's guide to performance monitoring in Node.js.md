@@ -2,9 +2,9 @@
 ---
 
 
-# Beginner’s Guide to Performance Monitoring in Node.js
+# Beginner’s Guide to Performance Monitoring in Node.js:
 
-## description: Learn how to identify slow requests, track performance bottlenecks, and monitor a Node.js application using practical, code-heavy examples.
+## Learn how to identify slow requests, track performance bottlenecks, and monitor a Node.js application using practical, code-heavy examples.
 
 Performance issues rarely announce themselves politely. A Node.js application may work perfectly in development, only to become slow and unpredictable under real user traffic. Requests begin to lag, APIs time out, and users quietly leave.
 
