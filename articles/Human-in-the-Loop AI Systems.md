@@ -1,8 +1,7 @@
 ---
 
-```markdown
-# Human-in-the-Loop AI Systems: When Automation Needs Oversight
-```
+
+# Human-in-the-Loop AI Systems: When Automation Needs Oversight.
 
 ## Introduction
 
