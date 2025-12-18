@@ -20,21 +20,22 @@ This API uses **Bearer Token Authentication**.
 
 ```http
 Authorization: Bearer <access_token>
+````
 
 
 Requests without valid credentials will return 401 Unauthorized.
 
 Endpoint: Get Item by ID
-Request
 
-GET /items/{item_id}
+Request: GET /items/{item_id}
 
 
 Path Parameters
+
 Name	    Type	   Description
 item_id	  integer	 Unique identifier of the item
 
-Example Request
+Example Request:
 
 GET /items/42
 Authorization: Bearer abc123
@@ -59,7 +60,7 @@ Error Example
 {
   "detail": "Item not found"
 }
-```
+m
 
 Notes
 
