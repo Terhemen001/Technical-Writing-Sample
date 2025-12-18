@@ -10,13 +10,13 @@
 
 ## Overview
 This API provides endpoints for managing items in a system.
-It is built using **FastAPI**, a high-performance Python web framework.
+It is built using FastAPI, a high-performance Python web framework.
 
 ## Base URL
 
 
 ## Authentication
-This API uses **Bearer Token Authentication**.
+This API uses Bearer Token Authentication.
 
 ```http
 Authorization: Bearer <access_token>
@@ -64,6 +64,6 @@ Error Example
 
 Notes
 
-Responses are JSON formatted
+•Responses are JSON formatted
 
-Errors follow FastAPI's standard error schema
+•Errors follow FastAPI's standard error schema
