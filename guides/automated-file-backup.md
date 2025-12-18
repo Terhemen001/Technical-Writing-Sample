@@ -52,27 +52,27 @@ print("Backup completed successfully!")
 ```
 ---
 
-#Step 3: Configure the Action
+## Step 3: Configure the Action
 
- -No-code tool: Connect the trigger to “Upload file to cloud storage.
- -Python script: Use cloud SDKs (Google Drive API, Dropbox API) to upload files automatically.
+ - No-code tool: Connect the trigger to “Upload file to cloud storage.
+ - Python script: Use cloud SDKs (Google Drive API, Dropbox API) to upload files automatically.
 
 ---
 
-#Step 4: Schedule the Backup
+## Step 4: Schedule the Backup
 
  - No-code tools: Most allow daily or hourly triggers.
  - Python script: Use your OS scheduler:
 
-      -Windows → Task Scheduler
+      - Windows → Task Scheduler
 
-      -macOS → Automator / cron
+      - macOS → Automator / cron
 
-      -Linux → cron jobs
+      - Linux → cron jobs
 
 ---
 
-#Step 5: Test and Validate
+## Step 5: Test and Validate
 
 1.   Add a new file to your source folder.
 
