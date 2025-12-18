@@ -27,12 +27,12 @@ This automation ensures real-time Slack alerts whenever new data is added.
 Example message:
 ```text
 New row added: {{$json["Name"]}} – {{$json["Status"]}}
-
+```
 ## Step 3: Test and Activate
 
 1. Connect all nodes in the workflow.
 2. Save and activate the workflow.
-3. Add a new row to the connected Google Sheet to verify the automation behavior.
+3. Add a new row to the connected Google Sheet to verify behavior.
 
 If configured correctly, a Slack notification will be sent automatically.
 
@@ -41,5 +41,3 @@ If configured correctly, a Slack notification will be sent automatically.
 This automation demonstrates how n8n enables low-code integrations
 between popular tools while remaining flexible and extensible.
 
-By combining event triggers with third-party services, teams can automate
-repetitive tasks without writing extensive custom code.
