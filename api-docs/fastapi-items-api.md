@@ -20,7 +20,7 @@ This API uses **Bearer Token Authentication**.
 
 ```http
 Authorization: Bearer <access_token>
-````
+
 
 Requests without valid credentials will return 401 Unauthorized.
 
@@ -59,7 +59,7 @@ Error Example
 {
   "detail": "Item not found"
 }
-
+```
 
 Notes
 
