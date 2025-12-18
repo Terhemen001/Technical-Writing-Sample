@@ -20,6 +20,7 @@ This API uses **Bearer Token Authentication**.
 
 ```http
 Authorization: Bearer <access_token>
+````
 
 Requests without valid credentials will return 401 Unauthorized.
 
@@ -30,8 +31,8 @@ GET /items/{item_id}
 
 
 Path Parameters
-Name	Type	Description
-item_id	integer	Unique identifier of the item
+Name	    Type	   Description
+item_id	  integer	 Unique identifier of the item
 
 Example Request
 
@@ -49,9 +50,9 @@ Successful Response
 
 Error Responses
 
-Status Code	Description
-404	Item not found
-401	Unauthorized
+StatusCode	Description
+404	        Item not found
+401	        Unauthorized
 
 Error Example
 
