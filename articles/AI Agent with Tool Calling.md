@@ -56,6 +56,7 @@ Each tool should:
 ```python
 def fetch_data(url: str) -> str:
     """Fetch data from a public endpoint"""
+```
 
 Avoid embedding logic inside prompts.
 Tools are code. Prompts are instructions
