@@ -50,30 +50,34 @@ backup_folder = destination / f"backup_{today}"
 shutil.copytree(source, backup_folder)
 print("Backup completed successfully!")
 ```
+---
+
 #Step 3: Configure the Action
 
-No-code tool: Connect the trigger to “Upload file to cloud storage.”
+ -No-code tool: Connect the trigger to “Upload file to cloud storage.
+ -Python script: Use cloud SDKs (Google Drive API, Dropbox API) to upload files automatically.
 
-Python script: Use cloud SDKs (Google Drive API, Dropbox API) to upload files automatically.
+---
 
 #Step 4: Schedule the Backup
 
-No-code tools: Most allow daily or hourly triggers.
+ - No-code tools: Most allow daily or hourly triggers.
+ - Python script: Use your OS scheduler:
 
-Python script: Use your OS scheduler:
+      -Windows → Task Scheduler
 
-Windows → Task Scheduler
+      -macOS → Automator / cron
 
-macOS → Automator / cron
+      -Linux → cron jobs
 
-Linux → cron jobs
+---
 
 #Step 5: Test and Validate
 
-Add a new file to your source folder.
+1.   Add a new file to your source folder.
 
-Ensure it appears in your cloud backup folder.
+2.   Ensure it appears in your cloud backup folder.
 
-Check logs or notifications from the automation tool/script.
+3.   Check logs or notifications from the automation tool/script.
 
 Tip: Testing ensures the automation works reliably and prevents surprises later
